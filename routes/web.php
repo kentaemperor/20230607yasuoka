@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\AuthorController;
 
-Route::get('/', [TestController::class, 'index']);
+Route::get('/', [AuthorController::class, 'index']);
+
+use App\Http\Controllers\TestController;
