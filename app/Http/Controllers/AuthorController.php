@@ -13,3 +13,4 @@ class AuthorController extends Controller
     return view('index', ['authors' => $authors]);
   }
 }
+// あいうえお//
