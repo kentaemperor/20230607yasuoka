@@ -44,4 +44,3 @@ class AuthorController extends Controller
   // 追記：ここまで
 }
 
-//かきくけこ

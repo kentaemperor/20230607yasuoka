@@ -11,4 +11,3 @@ Route::get('/add', [AuthorController::class, 'add']);
 Route::post('/add', [AuthorController::class, 'create']);
 // 追記：ここまで
 
-//あいうえお
