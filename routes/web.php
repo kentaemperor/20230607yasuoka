@@ -11,4 +11,4 @@ Route::get('/add', [AuthorController::class, 'add']);
 Route::post('/add', [AuthorController::class, 'create']);
 // 追記：ここまで
 
-//aiueo aiueo
+Route::get('/index', [AuthorController::class, 'index']);
